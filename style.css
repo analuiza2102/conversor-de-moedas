@@ -1,0 +1,142 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: repeating-linear-gradient(
+    45deg,
+    #7be2bb,
+    #309767 15%,
+    #f7af62 20%
+  );
+}
+h2,h1 {
+  font-size: 20px;
+  color: #422800;
+  margin: 5px;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  padding: 15px;
+}
+
+
+
+.container {
+  position: center;
+  
+  width: 400px;
+  height: 750px;
+  border: none;
+  flex-direction: column;
+  display: inline-flex;
+  padding: 0px 30px 45px 30px;
+  background-image: url("https://images.pexels.com/photos/12323071/pexels-photo-12323071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  margin: 0 0 1rem 5rem;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  
+  color: #777;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.titulo {
+  color: #e2808a;
+  margin: 10px 0 5px;
+  font-size: 48px;
+}
+
+.subtitulo {
+  color: #e2808a;
+  margin-top: 5px;
+  font-size: 34px;
+}
+
+p{
+  color: #e2808a;
+  font-size: 18px;
+
+}
+
+.imersao {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  width: 160px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  outline: none;
+  border-radius: 10px;
+  margin: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+label {
+  color: #e2808a;
+  font-size: 18px;
+  margin: 14px;
+}
+
+.container button{
+  border: none;
+  outline: none;
+  color: black;
+  
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  font-size: 14px;
+  font-weight: bold;
+
+  transition-duration: 0.4s;
+  
+  border-radius: 5px;
+  
+  
+}
+
+
+button{
+  background-color: pink;
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  font-size: 21px;
+  padding: 10px;
+
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+
+  .titulo {
+    font-size: 24px;
+  }
+
+  .imersao {
+    width: 130px;
+  }
+}

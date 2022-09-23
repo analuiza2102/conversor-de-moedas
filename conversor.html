@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!--fonte-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  
+  
+
+  <div class="card">
+
+    
+    
+    <div class="container">
+
+      <header>
+        <h1 class="titulo">
+          Conversor <br>de<br> Medidas
+        </h1>
+      </header>
+      
+      <div class="convert">
+        <h2 class="subtitulo"> Moeda</h2>
+        <p class="efetua"> Converte = libras - reais - dólares </p>
+        <ul>
+          <li>
+            <p> Converter: </p>
+            <input type="number" class="converter" id="converter" placeholder="Digite o">
+
+            <input list="tipos" type="text" placeholder="Digite a cédula" id="cedula" autocomplete="off">
+            <datalist id="tipos">
+              <option value="USD">
+              <option value="GBP">
+              <option value="BRL">
+            </datalist>
+            <p> Para: </p>
+            <input list="tipos" type="text" placeholder="Digite a moeda" id="cedula2" autocomplete="off">
+            <p class="valorFinal" id="valorFinal"></p>
+          </li>
+          <button type="submit" onclick=conversorMoeda()>Converter</button>
+        </ul>
+      </div>
+
+   
+    
+
+
+  
+
+
+
+
+
+
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="imersao" alt="">
+    <!-- partial -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
